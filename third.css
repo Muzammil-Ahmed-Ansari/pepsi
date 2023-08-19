@@ -1,0 +1,22 @@
+body{
+    background-color:#0b3480
+}
+.parent{
+    display: flex;
+}
+.bottle{
+    height: 600px;
+    width: 430px;
+    margin-top: 30px;
+    margin-left: 200px;
+    background-image: url("bottles\ 3.webp");
+    background-size: cover;
+}
+.nitro{
+    height: 480px;
+    width: 500px;
+    margin-top: 140px;
+    background-image: url("nitro.webp");
+    background-size: cover;
+    
+}

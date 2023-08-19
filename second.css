@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+}
+.parent{
+    /* border: 2px solid blue; */
+    height: 640px;
+    /* display: inline-block; */
+    display:flex;
+    background-position: center
+    /* margin:5px; */
+    
+
+    
+}
+.black{
+    background-image: url("second\ bottle.webp");  
+    background-repeat: no-repeat;
+    /* border: 2px solid red; */
+    height: 510px;
+    width:400px;
+    background-position: center;
+    margin-left: 290px;
+    margin-top: 120px;
+}
+.anotherdiv{
+background-image: url("zero\ pic.webp");
+background-size: cover;
+/* border: 2px solid yellow; */
+height: 400px;
+width: 400px;
+margin-top: 200px;
+}

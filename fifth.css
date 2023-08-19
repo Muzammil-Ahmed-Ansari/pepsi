@@ -1,0 +1,26 @@
+body{
+    background-color:#0065c3;
+}
+.parent{
+    height: 640px;
+    display: flex;
+}
+.text{
+   height: 600px;
+   width: 530px;
+   margin-top: 30px;
+   margin-left: 60px;
+   background-image: url("5all.webp");
+   background-size: cover;
+}
+.bottles{
+    height: 450px;
+    width: 550px;
+    margin-top: 200px;
+    margin-left: 540px;
+    margin-bottom: 60px;
+    background-image: url("5bottles.webp");
+    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

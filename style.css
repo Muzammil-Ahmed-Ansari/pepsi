@@ -1,0 +1,96 @@
+
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    background-color: #0065c3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    height: 60px;
+    width: 1270px;
+    position: relative;
+    top: 0%;
+    position: fixed;
+  }
+  
+  .logo img {
+    max-height: 50px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 30px;
+    position: relative;
+    left: 20px;
+    margin:0px 16px 0px 0px
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+    font: 16px;
+  }
+  .buy-button {
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 20px;
+    /* flex-direction: end; */
+    margin-left: 150px;
+  }
+  
+  .buy {
+    text-decoration: none;
+    color: #0065c3;
+    font-weight: bold;
+  }
+  
+  .buy:hover {
+    /* color: blue; */
+  }
+  
+  /* Responsive adjustments */
+  @media screen and (max-width: 768px) {
+    .nav-links {
+      flex-direction: column;
+    }
+  
+    .nav-links li {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
+  body{
+    background-image: url("background.jpg");
+  }
+  .hero-section{
+    background-image: url("2bottles.webp");
+    height: 529px;
+    width: 506px;
+background-size: cover;
+background-color:white;
+margin-left: 40px;
+background-color: #0065c3;
+  }
+.tag{
+    height: 481px;
+    width: 500px;
+    display: flex;
+    margin-left: 600px;
+    margin-top: 135px;
+    background-image: url("applemusic.webp");
+    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
